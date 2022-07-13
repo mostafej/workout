@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section-1{
+display: flex;
+}
+.desc-1{
+    padding-top: 280px;
+    padding-left: 15%;
+    width: 50%;
+    z-index: 1;
+}
+.heading-1{
+    font-size: 50px;
+    color: rgb(109, 107, 107);
+}
+.span-1{
+    color: orangered;
+}
+.heading-p{
+    color: gray;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.first-btn{
+    border: none;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 30px;
+    color: white;
+    background-image: linear-gradient(orange, orangered);
+    border-radius: 20px;
+}
+
+.img-1 img{
+    margin-top: 5%;
+    height: 800px;
+   position: relative;
+    z-index: 0;
+    width: 100%;
+    left:-20% ;
+
+}
+.section-2{
+    display: flex;
+    margin-top: 30px;
+    background-image: url(/images/shapes/7.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    align-items: center;
+    justify-content:center ;
+}
+.desc-2{
+    width: 50%;
+    margin-top: 80px;
+    text-align: center;
+    padding-right: 20%;
+    padding-left: 5%;
+
+    
+}
+.img-2{
+    width: 50%;
+    
+    padding: 5% 5% 0 15%;
+    
+}
+.img-2 img{
+    width: 100%;
+    height: 400px;
+}
+.section-3{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+.desc-3{
+    text-align: center;
+    padding: 20px 60px;
+}
+.box{
+    display: flex;
+   
+}
+.box-1{
+    width: 50%;
+    text-align: left;
+    margin: 0 8% ;
+    margin-top: 5%;
+    padding: 20px 20px 30px 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+}
+#box-1{
+    margin-right: 20px ;
+}
+#box-2{
+    margin-left: 20px ;
+}
+.box-1 img{
+    width: 100%;
+}
+.heading-p1{
+    margin-top: 20px;
+    padding: 0 20%;
+    font-size: 18px;
+}
+.box-h2{
+    margin: 2% 0;
+    font-size: 30px;
+    font-weight:900;
+}
+.box-p{
+    margin: 3% 0;
+    color: rgb(83, 82, 82);
+    font-size: 20px;
+}
+.section-4{
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 30px gray;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.boxs{
+    margin: 6%;
+    
+}
+.boxs-h3{
+    font-size:  40px;
+    margin-bottom: 5%;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    height: 200px;
+    margin-top: 60px;
+}
+footer h1{
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+footer h1 span{
+    color: brown;
+}
+footer h4{
+    color: antiquewhite;
+}
